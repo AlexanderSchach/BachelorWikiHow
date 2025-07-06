@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap");
+
+/* Header section */
+.header-bg {
+  width: 100%;
+  min-height: 600px;
+  background: url("/background.png") center/cover no-repeat;
+  color: #fdfdfd;
+  padding: 3rem 1rem;
+}
+
+/* Content container */
+.header-content {
+  max-width: 1100px;
+  margin: 10rem auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Heading */
+.how-to-wiki-heading {
+  font-family: "Domine";
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+/* Cta text*/
+.cta-text {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Responsive */
+@media (max-width: 1284px) {
+  .how-to-wiki-heading {
+    font-size: 30px;
+    padding-left: 70px;
+  }
+
+  .cta-text {
+    padding-left: 70px;
+    font-size: 18px;
+  }
+}
